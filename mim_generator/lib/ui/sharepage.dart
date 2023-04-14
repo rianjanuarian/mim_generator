@@ -87,7 +87,7 @@ class _SharePageState extends State<SharePage> {
                             width: 3.0,
                           ),
                         ),
-                        onPressed: () async {
+                        onPressed: () {
                           saveAndShare(widget.bytes!);
                         },
                         child: const Text(
